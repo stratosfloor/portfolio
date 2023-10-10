@@ -92,7 +92,7 @@ export default function Intro() {
 				<a
 					href="/CV.pdf"
 					download={true}
-					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105  active:scale-105 transition-all cursor-pointer border border-black/10 "
+					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105  active:scale-105 transition-all cursor-pointer borderBlack"
 				>
 					Download CV
 					<HiDownload className="opacity-60 group-focus:translate-y-2 group-focus:opacity-100 group-hover:translate-y-2 group-hover:opacity-100 transition" />
@@ -101,7 +101,7 @@ export default function Intro() {
 				<a
 					href="https://www.linkedin.com/in/emil-noren/"
 					target="_blank"
-					className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none cursor-pointer hover:scale-110 focus:scale-110  scale-105  transition-all border border-black/10"
+					className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none cursor-pointer hover:scale-110 focus:scale-110  scale-105  transition-all borderBlack"
 				>
 					<BsLinkedin className="group-hover:scale-125 group-hover:text-gray-950 group-focus:scale-125 group-focus:text-black" />
 				</a>
@@ -109,7 +109,7 @@ export default function Intro() {
 				<a
 					href="https://github.com/stratosfloor"
 					target="_blank"
-					className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 cursor-pointer  transition-all border border-black/10"
+					className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 cursor-pointer  transition-all borderBlack"
 				>
 					<FaGithub className="group-hover:scale-125 group-hover:text-text-gray-950 group-focus:scale-125 group-focus:text-black" />
 				</a>
