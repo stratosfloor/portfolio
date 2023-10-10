@@ -9,7 +9,7 @@ export default function Home() {
 	return (
 		<main className="flex flex-col items-center px-4">
 			<Intro />
-			<SectionDivider my="20" />
+			<SectionDivider tailwindCss="my-20" />
 			<About />
 			<SectionDivider />
 			<Projects />
