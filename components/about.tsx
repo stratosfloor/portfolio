@@ -36,7 +36,7 @@ export default function About() {
 				remote and on-site work. I am currently based in Umeå, Sweden.
 			</p>
 			<p>
-				<span className="italic">When I'm not coding</span>, I enjoy playing
+				<span className="italic">When I am not coding</span>, I enjoy playing
 				video games, watching movies, and playing with my dog. I also enjoy{' '}
 				<span className="font-medium">learning new things</span>. I am currently
 				watch to many youtube videos about{' '}
