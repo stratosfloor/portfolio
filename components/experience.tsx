@@ -20,7 +20,7 @@ export default function Experience() {
 			<SectionHeading>My experience</SectionHeading>
 			<VerticalTimeline lineColor="" animate={true}>
 				{experiencesData.map((item, index) => (
-					<ExperienceElement item={item} index={index} />
+					<ExperienceElement key={index} item={item} index={index} />
 				))}
 			</VerticalTimeline>
 		</section>
