@@ -2,9 +2,15 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import mypage from '@/public/mypage.png';
+import place from '@/public/place.png';
+import chat from '@/public/chat.png';
+import meals from '@/public/meals.png';
+import gradproj from '@/public/gradproject.png';
+import parking from '@/public/parking.png';
+import wordle from '@/public/wordle.png';
+import kino from '@/public/kino.png';
+import hacker from '@/public/hacker.png';
 
 export const links = [
 	{
@@ -35,73 +41,137 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: 'Graduated bootcamp',
-		location: 'Miami, FL',
+		title: 'Cross-plattform development with Flutter',
+		location: 'Umeå, SWE',
 		description:
-			'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+			'14 weeks course in cross-plattform development for mobile devices using Dart & Flutter.',
 		icon: React.createElement(LuGraduationCap),
-		date: '2019',
+		date: 'Ongoing',
 	},
 	{
-		title: 'Front-End Developer',
-		location: 'Orlando, FL',
+		title: 'Graduated 2-year vocational education',
+		location: 'Umeå, SWE',
 		description:
-			'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-		icon: React.createElement(CgWorkAlt),
-		date: '2019 - 2021',
+			'I graduated vocational education called System developer in Java and JavaScript.',
+		icon: React.createElement(LuGraduationCap),
+		date: '2023',
 	},
 	{
-		title: 'Full-Stack Developer',
-		location: 'Houston, TX',
+		title: 'Warehouse worker',
+		location: 'Umeå SWE',
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+			'Handle incoming and outgoing deliveries. Loading and unloading using forklift. ',
 		icon: React.createElement(FaReact),
-		date: '2021 - present',
+		date: '2017-2023',
+	},
+	{
+		title: 'Mathematics',
+		location: 'Umeå Universitet, Umeå, SWE',
+		description: '37,5 hp mathematics courses at Umeå University.',
+		icon: React.createElement(CgWorkAlt),
+		date: '2014-2015',
 	},
 ] as const;
 
 export const projectsData = [
 	{
-		title: 'CorpComment',
+		title: 'This page',
 		description:
 			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-		tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-		imageUrl: corpcommentImg,
+		tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer motion'],
+		imageUrl: mypage,
+		link: 'https://github.com/stratosfloor/portfolio',
 	},
 	{
-		title: 'rmtDev',
+		title: 'Favourite places',
 		description:
-			'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-		imageUrl: rmtdevImg,
+			'Mobile app for saving pictures and locations of favorite places. Built with Dart and Flutter.',
+		tags: ['Dart', 'Flutter', 'Google Maps', 'Riverpod', 'SQFLite'],
+		imageUrl: place,
+		link: 'https://github.com/stratosfloor/favorite-places',
 	},
 	{
-		title: 'Word Analytics',
+		title: 'Flutter chat app',
+		description: 'Chat app, built with Dart and Flutter using Firebase.',
+		tags: ['Dart', 'Flutter', 'Firebase', 'Firestore'],
+		imageUrl: chat,
+		link: 'https://github.com/stratosfloor/chat-app',
+	},
+	{
+		title: 'Meals-app',
+		description: 'Meals app, built with dart & flutter',
+		tags: ['Dart', 'Flutter', 'Firebase', 'Firestore'],
+		imageUrl: meals,
+		link: 'https://github.com/stratosfloor/meals-app',
+	},
+	{
+		title: 'Graduate project - frontend',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'Read geodata from backend and visualize on map. Click markers on map to load more information.',
+		tags: ['React', 'Google Maps', 'CSS'],
+		imageUrl: gradproj,
+		link: 'https://github.com/stratosfloor/ex-jobb-frontend',
+	},
+	{
+		title: 'Graduate project - backend',
+		description:
+			'Read geodata from backend and visualize on map. Click markers on map to load more information.',
+		tags: ['Java', 'Spring boot', 'MySQL', 'Hibernate'],
+		imageUrl: gradproj,
+		link: 'https://github.com/stratosfloor/ex-jobb-backend',
+	},
+	{
+		title: 'Parkingapp backend',
+		description: 'Backend for a parking app.',
+		tags: ['Java', 'Spring boot', 'MySQL', 'Hibernate', 'Geolatte'],
+		imageUrl: parking,
+		link: 'https://github.com/stratosfloor/Parkingapp-backend',
+	},
+	{
+		title: 'Wordle Clone',
+		description: 'Backend for a parking app.',
+		tags: ['NodeJS', 'Express', 'MongoDB', 'React', 'CSS'],
+		imageUrl: wordle,
+		link: 'https://github.com/stratosfloor/worlde-project',
+	},
+	{
+		title: 'Next Kino',
+		description: 'Group project to build a kino website using NextJS',
+		tags: ['React', 'NextJS', 'MongoDB', 'Mongoose', 'CSS'],
+		imageUrl: kino,
+		link: 'https://github.com/stratosfloor/TB-NextKino',
+	},
+	{
+		title: 'Hacker Escape Room',
+		description:
+			'Scool assignment to build a website exactly like design from Figma',
+		tags: ['HTML', 'CSS', 'SCSS', 'CSS'],
+		imageUrl: hacker,
+		link: 'https://github.com/stratosfloor/Esc-Hacker-Escape-Rooms',
 	},
 ] as const;
 
 export const skillsData = [
 	'HTML',
 	'CSS',
+	'SCSS',
 	'JavaScript',
 	'TypeScript',
 	'React',
 	'Next.js',
 	'Node.js',
+	'Express',
 	'Git',
 	'Tailwind',
-	'Prisma',
 	'MongoDB',
-	'Redux',
-	'GraphQL',
-	'Apollo',
-	'Express',
-	'PostgreSQL',
-	'Python',
-	'Django',
+	'mySQL',
+	'Java',
+	'Spring',
 	'Framer Motion',
+	'Agile development',
+	'Scrum',
+	'System design',
+	'OOAD',
+	'UML',
+	'WCAG',
 ] as const;
