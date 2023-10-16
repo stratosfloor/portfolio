@@ -65,9 +65,8 @@ export default function Intro() {
 				<span className="font-bold">Hello, my name is Emil.</span> I am a{' '}
 				<span className="font-bold">full-stack developer.</span> I enjoy
 				building <span className="italic">sites & apps</span>. My focus is{' '}
-				<span className="underline">React (Next.js)</span>,{' '}
-				<span className="underline">Java</span> &{' '}
-				<span className="underline">Flutter</span>.
+				<span className="underline">React (Next.js)</span> and{' '}
+				<span className="underline">Java.</span>
 			</motion.h1>
 			<motion.div
 				className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

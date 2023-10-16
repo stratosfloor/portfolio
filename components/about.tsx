@@ -20,8 +20,9 @@ export default function About() {
 			<p className="mb-3">
 				After working in warehouse for a couple of years I decided to pursue my
 				passion for programming. I enrolled in a 2-year
-				<span className="font-bold"> Vocational Education</span> and learned{' '}
-				<span className="font-medium">full-stack development</span>.{' '}
+				<span className="font-bold"> Vocational Education </span> in{' '}
+				<span className="font-medium">full-stack development</span> and
+				graduated this spring.{' '}
 				<span className="italic">My favorite part of programming</span> is the
 				problem-solving aspect. I <span className="underline">love</span> the
 				feeling of finally figuring out a solution to a problem. My core stack
@@ -31,9 +32,10 @@ export default function About() {
 				</span>{' '}
 				I am also familiar with Dart & Flutter. I am always looking to learn new
 				technologies. I am currently looking for a{' '}
-				<span className="font-medium">full-time position</span> as a software
-				developer, webdeveloper or mobile developer. I am intrested in both
-				remote and on-site work. I am currently based in Umeå, Sweden.
+				<span className="font-medium">junior position</span> as a software
+				developer, java developer, web developer or app developer for mobile
+				devices. I am intrested in both remote and on-site work. I am currently
+				based in Umeå, Sweden.
 			</p>
 			<p>
 				<span className="italic">When I am not coding</span>, I enjoy playing
