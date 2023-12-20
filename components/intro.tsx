@@ -31,7 +31,7 @@ export default function Intro() {
 						}}
 					>
 						<Image
-							src="/enil.png"
+							src="/emil.jpg"
 							width="192"
 							height="192"
 							quality="95"
@@ -63,10 +63,13 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}
 			>
 				<span className="font-bold">Hello, my name is Emil.</span> I am a{' '}
-				<span className="font-bold">full-stack developer.</span> I enjoy
-				building <span className="italic">sites & apps</span>. My focus is{' '}
+				<span className="font-bold">full-stack developer.</span> My focus is{' '}
 				<span className="underline">React (Next.js)</span> and{' '}
-				<span className="underline">Java.</span>
+				<span className="underline">Java</span>. I also dabble with{' '}
+				<span className="italic">mobile app development</span> for both{' '}
+				<span className="font-semibold">Android</span> and{' '}
+				<span className="font-semibold">iOS </span>
+				with <span className="underline">Dart & Flutter.</span>
 			</motion.h1>
 			<motion.div
 				className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
