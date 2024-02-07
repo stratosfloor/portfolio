@@ -2,6 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import shoppingcart from '@/public/shoppingcart.png';
 import mypage from '@/public/mypage.png';
 import place from '@/public/place.png';
 import chat from '@/public/chat.png';
@@ -75,12 +76,21 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
+		title: 'Shopping cart example',
+		description: 'A simple shoppingar cart built with React & TypeScript',
+		tags: ['React', 'Typescript', 'Bootstrap'],
+		imageUrl: shoppingcart,
+		link: 'https://github.com/stratosfloor/shopping-cart',
+		demo: 'https://shopping-cart-two-ochre.vercel.app',
+	},
+	{
 		title: 'This page',
 		description:
 			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
 		tags: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Framer motion'],
 		imageUrl: mypage,
 		link: 'https://github.com/stratosfloor/portfolio',
+		demo: '',
 	},
 	{
 		title: 'Favourite places',
@@ -89,6 +99,7 @@ export const projectsData = [
 		tags: ['Dart', 'Flutter', 'Google Maps', 'Riverpod', 'SQFLite'],
 		imageUrl: place,
 		link: 'https://github.com/stratosfloor/favorite-places',
+		demo: '',
 	},
 	{
 		title: 'Flutter chat app',
@@ -96,6 +107,7 @@ export const projectsData = [
 		tags: ['Dart', 'Flutter', 'Firebase', 'Firestore'],
 		imageUrl: chat,
 		link: 'https://github.com/stratosfloor/chat-app',
+		demo: '',
 	},
 	{
 		title: 'Meals-app',
@@ -103,6 +115,7 @@ export const projectsData = [
 		tags: ['Dart', 'Flutter', 'Firebase', 'Firestore'],
 		imageUrl: meals,
 		link: 'https://github.com/stratosfloor/meals-app',
+		demo: '',
 	},
 	{
 		title: 'Graduate project - frontend',
@@ -111,6 +124,7 @@ export const projectsData = [
 		tags: ['React', 'Google Maps', 'CSS'],
 		imageUrl: gradproj,
 		link: 'https://github.com/stratosfloor/ex-jobb-frontend',
+		demo: '',
 	},
 	{
 		title: 'Graduate project - backend',
@@ -119,6 +133,7 @@ export const projectsData = [
 		tags: ['Java', 'Spring boot', 'MySQL', 'Hibernate'],
 		imageUrl: gradproj,
 		link: 'https://github.com/stratosfloor/ex-jobb-backend',
+		demo: '',
 	},
 	{
 		title: 'Parkingapp backend',
@@ -126,6 +141,7 @@ export const projectsData = [
 		tags: ['Java', 'Spring boot', 'MySQL', 'Hibernate', 'Geolatte'],
 		imageUrl: parking,
 		link: 'https://github.com/stratosfloor/Parkingapp-backend',
+		demo: '',
 	},
 	{
 		title: 'Wordle Clone',
@@ -133,6 +149,7 @@ export const projectsData = [
 		tags: ['NodeJS', 'Express', 'MongoDB', 'React', 'CSS'],
 		imageUrl: wordle,
 		link: 'https://github.com/stratosfloor/worlde-project',
+		demo: '',
 	},
 	{
 		title: 'Next Kino',
@@ -140,6 +157,7 @@ export const projectsData = [
 		tags: ['React', 'NextJS', 'MongoDB', 'Mongoose', 'CSS'],
 		imageUrl: kino,
 		link: 'https://github.com/stratosfloor/TB-NextKino',
+		demo: '',
 	},
 	{
 		title: 'Hacker Escape Room',
@@ -148,6 +166,7 @@ export const projectsData = [
 		tags: ['HTML', 'CSS', 'SCSS', 'CSS'],
 		imageUrl: hacker,
 		link: 'https://github.com/stratosfloor/Esc-Hacker-Escape-Rooms',
+		demo: '',
 	},
 ] as const;
 

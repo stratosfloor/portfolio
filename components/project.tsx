@@ -12,6 +12,7 @@ export default function Project({
 	tags,
 	imageUrl,
 	link,
+	demo,
 }: (typeof projectsData)[number]) {
 	const ref = useRef<HTMLDivElement>(null);
 	const { scrollYProgress } = useScroll({
@@ -30,13 +31,20 @@ export default function Project({
 			}}
 			className="group mb-3 sm:mb-8 last:mb-0"
 		>
-			<section className="flex flex-col bg-gray-100 max-w-[48rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem]  hover:bg-gray-200 transition group-even:pl-8  dark:bg-white/10 dark:hover:bg-white/20">
+			<section className="flex flex-col bg-gray-100 max-w-[48rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem]  hover:bg-gray-200 transition group-even:pl-8  dark:bg-white/10 dark:hover:bg-white/20 ">
 				<div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[60%] block sm:flex sm:flex-col h-full sm:group-even:ml-[18rem] ">
-					<h3 className="text-2xl flex items-baseline justify-">
+					<h3 className="text-2xl flex items-baseline l:justify-between xl:justify-between l:mr-6 xl:mr-6">
 						{title}
-						<a href={link} target="_blank">
-							<BiLinkExternal />
-						</a>
+						<div className="flex ml-2">
+							<a href={link} target="_blank">
+								<FaGithub />
+							</a>
+							{demo != '' ? (
+								<a href={demo} target="_black">
+									<BiLinkExternal />
+								</a>
+							) : null}
+						</div>
 					</h3>
 					<p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
 						{description}
