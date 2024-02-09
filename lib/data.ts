@@ -2,6 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import youtubeclone from '@/public/youtube-clone.png';
 import shoppingcart from '@/public/shoppingcart.png';
 import mypage from '@/public/mypage.png';
 import place from '@/public/place.png';
@@ -75,6 +76,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: 'Youtube clone frontend',
+		description: 'Frontend clone of youtube',
+		tags: ['React', 'Typescript', 'Tailwindcss'],
+		imageUrl: youtubeclone,
+		link: 'https://github.com/stratosfloor/youtube-clone',
+		demo: 'https://youtube-clone-kkyj.vercel.app/',
+	},
 	{
 		title: 'Shopping cart example',
 		description: 'A simple shoppingar cart built with React & TypeScript',
