@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import ThemeContextProvider, { useTheme } from '@/context/theme-context';
-import React, { useContext } from 'react';
-import { BsMoon, BsSun } from 'react-icons/bs';
+import ThemeContextProvider, { useTheme } from "@/context/theme-context";
+import React, { useContext } from "react";
+import { BsMoon, BsSun } from "react-icons/bs";
 
 export default function ThemeToggle() {
-	const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
 
-	return (
-		<button
-			className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center text-lg hover:scale-[1.15] focus:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
-			onClick={toggleTheme}
-		>
-			{theme === 'light' ? <BsSun /> : <BsMoon />}
-		</button>
-	);
+  return (
+    <button
+      className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center text-lg hover:scale-[1.15] focus:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
+      onClick={toggleTheme}
+    >
+      {theme === "light" ? <BsSun /> : <BsMoon />}
+    </button>
+  );
 }
