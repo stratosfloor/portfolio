@@ -13,6 +13,9 @@ import parking from "@/public/parking.png";
 import wordle from "@/public/wordle.png";
 import kino from "@/public/kino.png";
 import hacker from "@/public/hacker.png";
+import workout from "@/public/workout.png";
+import pixelart from "@/public/pixelart.png";
+import issues from "@/public/issues.png";
 
 export const links = [
   {
@@ -56,7 +59,7 @@ export const experiencesData = [
     description:
       "14 weeks course in cross-plattform development for mobile devices using Dart & Flutter.",
     icon: React.createElement(LuGraduationCap),
-    date: "Ongoing",
+    date: "2023",
   },
   {
     title: "Graduated 2-year vocational education",
@@ -85,6 +88,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Issue tracker",
+    description: "Fullstack application for issue handling",
+    tags: [
+      "Next.js",
+      "React",
+      "Prisma",
+      "MySQL",
+      "Typescript",
+      "Tailwindcss",
+      "Zod",
+    ],
+    imageUrl: issues,
+    link: "https://github.com/stratosfloor/issue-tracker",
+    demo: "", //TODO:
+  },
+  {
     title: "Youtube clone frontend",
     description: "Frontend clone of youtube",
     tags: ["React", "Typescript", "Tailwindcss"],
@@ -99,6 +118,24 @@ export const projectsData = [
     imageUrl: shoppingcart,
     link: "https://github.com/stratosfloor/shopping-cart",
     demo: "https://shopping-cart-two-ochre.vercel.app",
+  },
+  {
+    title: "Workout app",
+    description:
+      "Workout app for mobile devices. Create exercieses och workouts, register performance.",
+    tags: ["Dart", "Flutter", "Hive"],
+    imageUrl: workout,
+    link: "https://github.com/stratosfloor/workout-app",
+    demo: "",
+  },
+  {
+    title: "Pixelart app",
+    description:
+      "Create and edit pixelarts. Multiple people can connect and edit pixelart at the same time.",
+    tags: ["Dart", "Flutter", "Hive", "Dart_Frog"],
+    imageUrl: pixelart,
+    link: "https://github.com/stratosfloor/pixel-art",
+    demo: "",
   },
   {
     title: "This page",
@@ -153,11 +190,11 @@ export const projectsData = [
     demo: "",
   },
   {
-    title: "Parkingapp backend",
-    description: "Backend for a parking app.",
-    tags: ["Java", "Spring boot", "MySQL", "Hibernate", "Geolatte"],
+    title: "Parkingapp fullstack",
+    description: "Fullstack parking app.",
+    tags: ["Java", "Spring boot", "MySQL", "Hibernate", "React"],
     imageUrl: parking,
-    link: "https://github.com/stratosfloor/Parkingapp-backend",
+    link: "https://github.com/stratosfloor/bravo-parking",
     demo: "",
   },
   {
@@ -166,6 +203,14 @@ export const projectsData = [
     tags: ["NodeJS", "Express", "MongoDB", "React", "CSS"],
     imageUrl: wordle,
     link: "https://github.com/stratosfloor/worlde-project",
+    demo: "",
+  },
+  {
+    title: "Parkingapp backend",
+    description: "Backend for a parking app.",
+    tags: ["Java", "Spring boot", "MySQL", "Hibernate", "Geolatte"],
+    imageUrl: parking,
+    link: "https://github.com/stratosfloor/Parkingapp-backend",
     demo: "",
   },
   {
@@ -185,7 +230,7 @@ export const projectsData = [
     link: "https://github.com/stratosfloor/Esc-Hacker-Escape-Rooms",
     demo: "",
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",
