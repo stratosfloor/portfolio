@@ -16,6 +16,7 @@ import hacker from "@/public/hacker.png";
 import workout from "@/public/workout.png";
 import pixelart from "@/public/pixelart.png";
 import issues from "@/public/issues.png";
+import snake from "@/public/snake.png";
 
 export const links = [
   {
@@ -102,6 +103,14 @@ export const projectsData = [
     imageUrl: issues,
     link: "https://github.com/stratosfloor/issue-tracker",
     demo: "", //TODO:
+  },
+  {
+    title: "Snake game",
+    description: "Snakw game built with Java Swing.",
+    tags: ["Java", "Swing"],
+    imageUrl: snake,
+    link: "https://github.com/stratosfloor/snake",
+    demo: "",
   },
   {
     title: "Youtube clone frontend",
