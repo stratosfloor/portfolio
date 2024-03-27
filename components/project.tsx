@@ -36,11 +36,21 @@ export default function Project({
           <h3 className="text-2xl flex items-baseline l:justify-between xl:justify-between l:mr-6 xl:mr-6">
             {title}
             <div className="flex ml-2">
-              <a href={link} target="_blank" title="Code on GitHub">
+              <a
+                href={link}
+                target="_blank"
+                title="Code on GitHub"
+                className="hover:scale-125 focus:scale-125 transition"
+              >
                 <FaGithub />
               </a>
               {demo != "" ? (
-                <a href={demo} target="_black" title="Demo">
+                <a
+                  href={demo}
+                  target="_black"
+                  title="Demo"
+                  className="hover:scale-125 focus:scale-125 transition"
+                >
                   <BiLinkExternal />
                 </a>
               ) : null}

@@ -23,9 +23,9 @@ export default function Projects() {
             <li
               key={index}
               className={clsx(
-                "bg-white/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-black/[70] rounded-full dark:bg-white/10 dark:text-white/70 cursor-pointer ",
+                "bg-white/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-black/[70] rounded-full dark:bg-white/10 dark:text-white/70 cursor-pointer hover:bg-black/10 focus:bg-black/10 dark:hover:bg-white/30 dark:hover:bg-white/30",
                 {
-                  "text-white/70 bg-slate-500 dark:text-gray-950 dark:bg-white/70":
+                  "text-white/70 bg-black/70 dark:text-gray-950 dark:bg-white/70":
                     activeTag === t,
                 }
               )}
