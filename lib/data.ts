@@ -17,6 +17,7 @@ import workout from "@/public/workout.png";
 import pixelart from "@/public/pixelart.png";
 import issues from "@/public/issues.png";
 import snake from "@/public/snake.png";
+import jwt from "@/public/jwt.png";
 
 export const links = [
   {
@@ -89,6 +90,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Jwt authentication",
+    description: "Backend for Jwt security authentication",
+    tags: ["Java", "Spring boot", "PostgreSQL", "JSON Web Token", "Docker"],
+    imageUrl: jwt,
+    link: "https://github.com/stratosfloor/jwt-security",
+    demo: "",
+  },
+  {
     title: "Issue tracker",
     description: "Fullstack application for issue handling",
     tags: [
@@ -99,6 +108,7 @@ export const projectsData = [
       "Typescript",
       "Tailwindcss",
       "Zod",
+      "Docker",
     ],
     imageUrl: issues,
     link: "https://github.com/stratosfloor/issue-tracker",
@@ -201,7 +211,7 @@ export const projectsData = [
   {
     title: "Parkingapp fullstack",
     description: "Fullstack parking app.",
-    tags: ["Java", "Spring boot", "MySQL", "Hibernate", "React"],
+    tags: ["Java", "Spring boot", "MySQL", "Hibernate", "React", "Docker"],
     imageUrl: parking,
     link: "https://github.com/stratosfloor/bravo-parking",
     demo: "",
@@ -249,18 +259,21 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Docker",
   "Node.js",
   "Express",
   "Git",
   "Tailwind",
   "MongoDB",
   "mySQL",
+  "PostgreSQL",
   "Java",
-  "Spring",
+  "Spring Framework",
   "Framer Motion",
   "Agile development",
   "Scrum",
   "System design",
+  "Object-oriented programming",
   "OOAD",
   "UML",
   "WCAG",
